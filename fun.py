@@ -1,3 +1,10 @@
+#############################
+# translate binary to ascii #
+# eg. In : 01100011         #
+#    Out : c                #
+#     In : 0110001101100111 #
+#    Out : cg               #
+#############################
 def tran(s):
     if len(s) % 8 != 0:
         return ''
