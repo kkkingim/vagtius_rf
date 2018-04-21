@@ -5,7 +5,7 @@
 #     In : 0110001101100111 #
 #    Out : cg               #
 #############################
-def tran(s):
+def bin2asc(s):
     if len(s) % 8 != 0:
         return ''
     if s.replace('1','') .replace('0','') != '':
